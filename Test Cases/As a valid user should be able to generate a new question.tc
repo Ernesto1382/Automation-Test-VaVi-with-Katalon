@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>As a valid user should be able to generate a new question</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29ee4031-0bc1-4d4b-b754-72dcfe81f952</testCaseGuid>
+</TestCaseEntity>

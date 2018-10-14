@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Dashboards Smoke,Chrome 69.0.3497.100,,2018-10-14 02:43:58,2018-10-14 02:45:56,1m - 57.883s,PASSED
+,,,,,,
+Test Cases/Pages/Login Page/User should login successfully using a valid username and password,Chrome 69.0.3497.100,,2018-10-14 02:43:59,2018-10-14 02:44:12,13.801s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 02:43:59,2018-10-14 02:44:10,11.025s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:10,2018-10-14 02:44:10,0.327s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:10,2018-10-14 02:44:11,1.346s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:11,2018-10-14 02:44:12,0.245s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:12,2018-10-14 02:44:12,0.703s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Clients Page/User should view the client dashboard,Chrome 69.0.3497.100,,2018-10-14 02:44:12,2018-10-14 02:44:39,26.910s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:12,2018-10-14 02:44:27,14.923s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:27,2018-10-14 02:44:28,0.169s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:28,2018-10-14 02:44:29,1.388s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:29,2018-10-14 02:44:29,0.151s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 02:44:29,2018-10-14 02:44:35,5.691s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:35,2018-10-14 02:44:39,3.786s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:39,2018-10-14 02:44:39,0.662s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Dasboard Page/User should view the manage dashboard,Chrome 69.0.3497.100,,2018-10-14 02:44:39,2018-10-14 02:44:57,18.015s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:39,2018-10-14 02:44:50,10.936s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:50,2018-10-14 02:44:51,0.150s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:51,2018-10-14 02:44:52,1.114s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:44:52,2018-10-14 02:44:52,0.149s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 02:44:52,2018-10-14 02:44:57,4.860s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:57,2018-10-14 02:44:57,0.671s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Engage Page/User should view the engage dashboard,Chrome 69.0.3497.100,,2018-10-14 02:44:57,2018-10-14 02:45:28,30.489s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 02:44:57,2018-10-14 02:45:14,16.666s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:14,2018-10-14 02:45:14,0.155s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:14,2018-10-14 02:45:15,1.127s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:15,2018-10-14 02:45:16,0.149s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 02:45:16,2018-10-14 02:45:22,6.780s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:22,2018-10-14 02:45:27,4.792s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 02:45:27,2018-10-14 02:45:28,0.665s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard,Chrome 69.0.3497.100,,2018-10-14 02:45:28,2018-10-14 02:45:56,28.241s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 02:45:28,2018-10-14 02:45:40,12.274s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:40,2018-10-14 02:45:40,0.170s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:40,2018-10-14 02:45:42,1.145s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:42,2018-10-14 02:45:42,0.144s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 02:45:42,2018-10-14 02:45:50,7.985s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 02:45:50,2018-10-14 02:45:55,5.697s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 02:45:55,2018-10-14 02:45:56,0.678s,PASSED

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dashboards Smoke" time="117" tests="5" failures="0" errors="0">
+   <testsuite name="Dashboards Smoke" tests="5" failures="0" errors="0" time="117" timestamp="2018-10-14 02:43:58" hostname="Ernest - Ernest" id="Test Suites/Smoke Suite/Dashboards Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ernest\\Katalon Studio\\ValueTest\\Reports\\Smoke Suite\\Dashboards Smoke\\20181014_024352"/>
+         <property name="logFiles" value="C:\\Users\\Ernest\\Katalon Studio\\ValueTest\\Reports\\Smoke Suite\\Dashboards Smoke\\20181014_024352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ernest - Ernest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="9287eb7d4f535c4cce83b0a2f3afb4a2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pages/Login Page/User should login successfully using a valid username and password" classname="Test Cases/Pages/Login Page/User should login successfully using a valid username and password" status="PASSED">
+         <system-out><![CDATA[2018-10-14 02:43:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Login Page/User should login successfully using a valid username and password: Test Cases/Pages/Login Page/User should login successfully using a valid username and password
+
+2018-10-14 02:43:59 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:43:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 02:44:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 02:44:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 02:44:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 02:44:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:10 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:10 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:10 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:10 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:10 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:12 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 02:44:12 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 02:44:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 02:44:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Manage Clients Page/User should view the client dashboard" classname="Test Cases/Pages/Manage Clients Page/User should view the client dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-14 02:44:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Clients Page/User should view the client dashboard: Test Cases/Pages/Manage Clients Page/User should view the client dashboard
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 02:44:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 02:44:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 02:44:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 02:44:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:27 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:28 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:28 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:28 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:28 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:29 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 02:44:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 02:44:29 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 02:44:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:44:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/CLIENTS/The clients page is loaded successfully' successfully
+
+2018-10-14 02:44:35 - [TEST_CASE][PASSED] - Test Cases/Dashboards/CLIENTS/The clients page is loaded successfully: Test Cases/Dashboards/CLIENTS/The clients page is loaded successfully
+
+2018-10-14 02:44:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Client Engagements Dashboard/a_Engage Dashboard_clientlink' is clicked on
+
+2018-10-14 02:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Client Engagements Dashboard/a_Engage Dashboard_clientlink' is clicked on
+
+2018-10-14 02:44:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Client Engagements Dashboard/h1_Client Engagements' is visible
+
+2018-10-14 02:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Client Engagements Dashboard/h1_Client Engagements' is visible
+
+2018-10-14 02:44:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Client Engagements' is present on page 
+
+2018-10-14 02:44:39 - [MESSAGE][PASSED] - Text 'Client Engagements' is present on page 
+
+2018-10-14 02:44:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/CLIENTS/The clients page is loaded successfully' successfully
+
+2018-10-14 02:44:39 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 02:44:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 02:44:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Manage Dasboard Page/User should view the manage dashboard" classname="Test Cases/Pages/Manage Dasboard Page/User should view the manage dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-14 02:44:39 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Dasboard Page/User should view the manage dashboard: Test Cases/Pages/Manage Dasboard Page/User should view the manage dashboard
+
+2018-10-14 02:44:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 02:44:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 02:44:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 02:44:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 02:44:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:50 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:50 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 02:44:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:44:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:51 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:44:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:44:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:51 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 02:44:51 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:51 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:44:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:44:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:44:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:44:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:52 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 02:44:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:44:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 02:44:52 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 02:44:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:44:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:44:57 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 02:44:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 02:44:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Manage Engage Page/User should view the engage dashboard" classname="Test Cases/Pages/Manage Engage Page/User should view the engage dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-14 02:44:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Engage Page/User should view the engage dashboard: Test Cases/Pages/Manage Engage Page/User should view the engage dashboard
+
+2018-10-14 02:44:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:44:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 02:44:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 02:44:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 02:45:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 02:45:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:45:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:45:14 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:45:14 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:45:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:45:14 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:45:14 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:45:14 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:45:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:45:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:45:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:45:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:45:16 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 02:45:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:45:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 02:45:16 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 02:45:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:45:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:45:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/ENGAGE/The engage page is loaded successfully' successfully
+
+2018-10-14 02:45:22 - [TEST_CASE][PASSED] - Test Cases/Dashboards/ENGAGE/The engage page is loaded successfully: Test Cases/Dashboards/ENGAGE/The engage page is loaded successfully
+
+2018-10-14 02:45:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Engage Dashboard/a_Dashboard_engagelink' is clicked on
+
+2018-10-14 02:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Engage Dashboard/a_Dashboard_engagelink' is clicked on
+
+2018-10-14 02:45:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Engage Dashboard/h1_Engagements Dashboard' is visible
+
+2018-10-14 02:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Engage Dashboard/h1_Engagements Dashboard' is visible
+
+2018-10-14 02:45:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Engagements Dashboard' is present on page 
+
+2018-10-14 02:45:27 - [MESSAGE][PASSED] - Text 'Engagements Dashboard' is present on page 
+
+2018-10-14 02:45:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/ENGAGE/The engage page is loaded successfully' successfully
+
+2018-10-14 02:45:27 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 02:45:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 02:45:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard" classname="Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-14 02:45:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard: Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard
+
+2018-10-14 02:45:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:45:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 02:45:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 02:45:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 02:45:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 02:45:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:45:40 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 02:45:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:45:40 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 02:45:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 02:45:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:45:40 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 02:45:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 02:45:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:45:40 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 02:45:40 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:45:41 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 02:45:41 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:45:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 02:45:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 02:45:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 02:45:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:45:42 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 02:45:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 02:45:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 02:45:42 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 02:45:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 02:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 02:45:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/MARKETPLACE/The market place page is loaded successfully' successfully
+
+2018-10-14 02:45:50 - [TEST_CASE][PASSED] - Test Cases/Dashboards/MARKETPLACE/The market place page is loaded successfully: Test Cases/Dashboards/MARKETPLACE/The market place page is loaded successfully
+
+2018-10-14 02:45:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ValueVision/a_Dashboard_marketplacelink' is clicked on
+
+2018-10-14 02:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ValueVision/a_Dashboard_marketplacelink' is clicked on
+
+2018-10-14 02:45:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_ValueVision/h1_Manage your purchased conte' is visible
+
+2018-10-14 02:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ValueVision/h1_Manage your purchased conte' is visible
+
+2018-10-14 02:45:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Manage your purchased content' is present on page 
+
+2018-10-14 02:45:55 - [MESSAGE][PASSED] - Text 'Manage your purchased content' is present on page 
+
+2018-10-14 02:45:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/MARKETPLACE/The market place page is loaded successfully' successfully
+
+2018-10-14 02:45:55 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 02:45:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 02:45:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-14 02:43:58 - [TEST_SUITE][PASSED] - Dashboards Smoke: Test Cases/Pages/Manage Market Place Page/User should view the market place dashboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

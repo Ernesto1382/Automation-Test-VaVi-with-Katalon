@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User should view the manage outpus dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec460661-9f7e-4cc1-995c-cc57f3417622</testCaseGuid>
+</TestCaseEntity>

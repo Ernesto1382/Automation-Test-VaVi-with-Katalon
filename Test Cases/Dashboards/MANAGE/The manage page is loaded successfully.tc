@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The manage page is loaded successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9260f2d-c403-45b2-85b2-3c842c34db2e</testCaseGuid>
+</TestCaseEntity>

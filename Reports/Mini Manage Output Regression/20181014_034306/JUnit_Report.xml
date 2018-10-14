@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mini Manage Output Regression" time="44" tests="2" failures="0" errors="0">
+   <testsuite name="Mini Manage Output Regression" tests="2" failures="0" errors="0" time="44" timestamp="2018-10-14 03:43:13" hostname="Ernest - Ernest" id="Test Suites/Mini Manage Output Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ernest\\Katalon Studio\\ValueTest\\Reports\\Mini Manage Output Regression\\20181014_034306"/>
+         <property name="logFiles" value="C:\\Users\\Ernest\\Katalon Studio\\ValueTest\\Reports\\Mini Manage Output Regression\\20181014_034306\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ernest - Ernest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ba5215b57b530315aa1c618de128a915"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard" classname="Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-14 03:43:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard: Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard
+
+2018-10-14 03:43:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 03:43:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 03:43:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 03:43:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 03:43:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:24 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 03:43:25 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 03:43:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 03:43:25 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 03:43:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 03:43:25 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 03:43:25 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 03:43:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 03:43:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 03:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 03:43:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 03:43:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 03:43:26 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 03:43:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 03:43:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 03:43:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 03:43:27 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 03:43:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 03:43:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 03:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 03:43:33 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 03:43:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 03:43:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question" classname="Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question" status="PASSED">
+         <system-out><![CDATA[2018-10-14 03:43:33 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question: Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question
+
+2018-10-14 03:43:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-14 03:43:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-14 03:43:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-14 03:43:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-14 03:43:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:46 - [MESSAGE][PASSED] - Navigate to 'https://qa.valuevision.com/Account/Login/' successfully
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard' successfully
+
+2018-10-14 03:43:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard: Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 03:43:47 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The log in page is loaded successfully: Test Cases/Dashboards/LOGIN/The log in page is loaded successfully
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 03:43:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log In/input_Forgot your password_Pas' is visible
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 03:43:47 - [MESSAGE][PASSED] - Text 'Welcome to ValueVision' is present on page 
+
+2018-10-14 03:43:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The log in page is loaded successfully' successfully
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 03:43:47 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/login with valid username and password: Test Cases/Dashboards/LOGIN/login with valid username and password
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - setText: Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 03:43:47 - [MESSAGE][PASSED] - Text 'armita.azari' is set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your username_Use'
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 03:43:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginTest/Page_Log In/input_Forgot your password_Pas'
+
+2018-10-14 03:43:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 03:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Log In/input_Stay signed in_btn btn-d' is clicked on
+
+2018-10-14 03:43:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/login with valid username and password' successfully
+
+2018-10-14 03:43:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 03:43:48 - [TEST_CASE][PASSED] - Test Cases/Dashboards/LOGIN/The release features page is loaded successfully: Test Cases/Dashboards/LOGIN/The release features page is loaded successfully
+
+2018-10-14 03:43:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 03:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is visible
+
+2018-10-14 03:43:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Release features' is present on page 
+
+2018-10-14 03:43:48 - [MESSAGE][PASSED] - Text 'Release features' is present on page 
+
+2018-10-14 03:43:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dashboards/LOGIN/The release features page is loaded successfully' successfully
+
+2018-10-14 03:43:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 03:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginTest/Page_Release features/input_Fixed Bugs._submitButton' is clicked on
+
+2018-10-14 03:43:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard' successfully
+
+2018-10-14 03:43:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Outputs/a_Create New Question' is clicked on
+
+2018-10-14 03:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Outputs/a_Create New Question' is clicked on
+
+2018-10-14 03:43:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '40' are selected in object 'Object Repository/Page_Create New Question/select_(select)custom catana t' 
+
+2018-10-14 03:43:53 - [MESSAGE][PASSED] - All options with value '40' are selected in object 'Object Repository/Page_Create New Question/select_(select)custom catana t' 
+
+2018-10-14 03:43:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '184' are selected in object 'Object Repository/Page_Create New Question/select_null(select)IT' 
+
+2018-10-14 03:43:54 - [MESSAGE][PASSED] - All options with value '184' are selected in object 'Object Repository/Page_Create New Question/select_null(select)IT' 
+
+2018-10-14 03:43:54 - [TEST_STEP][PASSED] - setText: Text 'automation test question' is set on object 'Object Repository/Page_Create New Question/textarea_QUESTION_QuestionView'
+
+2018-10-14 03:43:54 - [MESSAGE][PASSED] - Text 'automation test question' is set on object 'Object Repository/Page_Create New Question/textarea_QUESTION_QuestionView'
+
+2018-10-14 03:43:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Question/input_ANSWER TYPES_QuestionVie' is clicked on
+
+2018-10-14 03:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Question/input_ANSWER TYPES_QuestionVie' is clicked on
+
+2018-10-14 03:43:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create New Question/span_Save  Close_fi-save vv-fi' is clicked on
+
+2018-10-14 03:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create New Question/span_Save  Close_fi-save vv-fi' is clicked on
+
+2018-10-14 03:43:56 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'automation test question' is present on page 
+
+2018-10-14 03:43:56 - [MESSAGE][PASSED] - Text 'automation test question' is present on page 
+
+2018-10-14 03:43:56 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-14 03:43:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-14 03:43:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-14 03:43:13 - [TEST_SUITE][PASSED] - Mini Manage Output Regression: Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mini Manage Output Regression,Chrome 69.0.3497.100,,2018-10-14 03:43:13,2018-10-14 03:43:57,44.314s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Outputs Page/User should view the manage outpus dashboard,Chrome 69.0.3497.100,,2018-10-14 03:43:13,2018-10-14 03:43:33,20.172s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 03:43:13,2018-10-14 03:43:24,11.218s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 03:43:25,2018-10-14 03:43:25,0.341s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 03:43:25,2018-10-14 03:43:26,1.386s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 03:43:26,2018-10-14 03:43:27,0.245s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 03:43:27,2018-10-14 03:43:33,6.141s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 03:43:33,2018-10-14 03:43:33,0.684s,PASSED
+,,,,,,
+Test Cases/Pages/Manage Outputs Page/As a valid user should be able to generate a new question,Chrome 69.0.3497.100,,2018-10-14 03:43:33,2018-10-14 03:43:57,23.653s,PASSED
+Start listener action : beforeTestcase,Chrome 69.0.3497.100,,2018-10-14 03:43:33,2018-10-14 03:43:46,12.998s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-14 03:43:47,2018-10-14 03:43:51,4.898s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 03:43:51,2018-10-14 03:43:53,1.542s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-10-14 03:43:53,2018-10-14 03:43:53,0.474s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-10-14 03:43:53,2018-10-14 03:43:54,0.158s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-14 03:43:54,2018-10-14 03:43:54,0.159s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 03:43:54,2018-10-14 03:43:54,0.104s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-14 03:43:54,2018-10-14 03:43:56,2.359s,PASSED
+verifyTextPresent,Chrome 69.0.3497.100,,2018-10-14 03:43:56,2018-10-14 03:43:56,0.137s,PASSED
+Start listener action : afterTestcase,Chrome 69.0.3497.100,,2018-10-14 03:43:56,2018-10-14 03:43:57,0.661s,PASSED
